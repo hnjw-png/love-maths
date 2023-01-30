@@ -1,0 +1,8 @@
+function runGame()
+checkAnswer()
+calculateCorrectAnswer()
+incrementScore()
+incrementWrongAnswer()
+displayAdditionAnswer()
+displaySubtractAnswer()
+displayMultiplyAnswer()
