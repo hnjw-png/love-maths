@@ -3,17 +3,19 @@ document.addEventListener("DOMContentLoaded", function(){
     
     for (let button of buttons) {
         button.addEventListener("click", function() {
-            if(this.getAttribrute(data-type) === submit) {
+            if (this.getAttribrute("data-type") === "submit") {
                 alert("You Clicked Submit!");
             } else {
                 let gameType = this.getAttribrute("data-type");
-                alert("You Clicked ${gametype}";
+                alert("You Clicked ${gametype}");
             }
         })
         
     }
 
 })
+
+
 
 
 function runGame(){
